@@ -1,8 +1,36 @@
+#navbar-title {
+  width: 230px;
+  height: 50%;
+  top: 19px;
+  left: 98px;
+  color: rgba(0, 55, 105, 1);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-decoration: none;
+}
+
+#navbar-text {
+  margin: 10px;
+  padding: 10px;
+  height: 25px;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 0em;
+  color: rgba(0, 55, 105, 1);
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 #landing-sight {
     color: rgba(0, 55, 105, 1);
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-size: 80px;
+    font-size: 5vh;
     margin: 50px;
     display: flex;
     justify-content: center;
@@ -10,8 +38,9 @@
   }
   
   #foto-grande {
-    width: 700px;
-    height: 700px;
+    width: 50%;
+    height: 50%;
+    display: flex;
   }
   
   #description {
@@ -31,10 +60,10 @@
     font-style: normal;
     color: rgba(0, 55, 105, 1);
     font-size: 25px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  color: #fafafa;
-  background-color: #003769;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #fafafa;
+    background-color: #003769;
   }
   
   #images {
@@ -58,47 +87,6 @@
     font-style: normal;
   }
 
-  #navbar-title{
-    width: 230px;
-    height: 29px;
-    top: 19px;
-    left: 98px;
-    color: rgba(0, 55, 105, 1);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: 0em;
-    text-align: left;
-    text-decoration: none;
-}
-.navbar-text{
-    margin: 5px auto;
-    padding: 0px;
-    width: auto;
-    height: 25px;
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 0em;
-    color: rgba(0, 55, 105, 1);
-    text-decoration: none;
-    color: #003769;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    vertical-align: baseline;
-}
-
-.navbar{
-    width: Fixed (709px);
-    height: Fixed (40px);
-    top: 23px;
-    left: 371px;
-    gap: 40px;   
-    width: 1281px;
-    height: 66px;
-}
-
 #faca-parte {
   font-family: 'Montserrat';
   font-style: normal;
@@ -109,7 +97,7 @@
   padding-top: 40px;
   color: #fafafa;
   background-color: #76B241;
-  height: 300px;
+  height: 250px;
 }
 
 #button {
@@ -119,7 +107,7 @@
   border-style: 2px solid;
   border-radius: 40px;
   text-decoration: none;
-  padding: 10px;
+  padding: 15px;
 }
 /* ------------------------------- CARD ELEMENTS -------------------------------*/
 .Card{
@@ -210,4 +198,126 @@
     width: 40px;
     height: 40px;
     flex-shrink: 0;
+}
+
+/* ------------------------------- FOOTER -------------------------------*/
+#container{
+  display: flex;
+  flex-direction: column;
+}
+
+footer{
+  height: 150%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: auto;
+  background-color: #032650;
+  padding: 60px 10%;
+}
+
+ul{
+  list-style: none;
+}
+
+.footer-col{
+  width: 25%;
+}
+
+.footer-col h4{
+  position: relative;
+  font-weight: 400;
+  font-size: 18px;
+  color: #f1bc0d;
+  text-transform: capitalize;
+  margin-left: 40px;
+}
+
+.footer-col h4::before{
+  content: '';
+  left: 0;
+}
+
+ul li:not(:last-child){
+  margin-bottom: 8px;
+}
+
+ul li a{
+  display: block;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #bdb6b6;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+#ocf{
+  height: 60%;
+  width: 60%;
+}
+
+#footer-brasa {
+  height: 30%;
+  width: 100%;
+  margin-left: 20px;
+}
+
+ul li a:hover{
+  color: white;
+  padding-left: 2px;
+}
+
+.links a{
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+  color: white;
+  text-align: center;
+  line-height: 44px;
+  border-radius: 50%;
+  transition: 0.4s;
+  margin-left: 50px;
+}
+
+.links a:hover{
+  color: #4d4f55;
+  background-color: white;
+}
+
+@media(max-width: 740px){
+  .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+      text-align: center;
+  }
+
+  .footer-col h4::before{
+      all: unset;
+  }
+}
+
+@media(max-width: 555px){
+  .footer-col{
+      width: 100%;
+  }
+}
+
+#copyright {
+  color: #bdb6b6;
+  margin-left: 38px;
+}
+
+#insta {
+  height: 35px;
+  width: 35px;
+}
+
+#linkedin {
+  height: 35px;
+  width: 35px;
+  padding-top: px;
+}
+
+#email {
+  height: 33px;
+  width: 37px;
 }

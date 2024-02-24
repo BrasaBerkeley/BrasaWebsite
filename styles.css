@@ -24,6 +24,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  line-height: 30px;
 }
 
 #landing-sight {
@@ -52,7 +53,10 @@
     color: rgba(0, 55, 105, 1); 
     font-size: 20px;
   }
-  
+  #foto-grupo {
+    height: 50vh;
+    width: 70vh;
+  }
   #image-gallery {
     
     text-align: center;
@@ -67,9 +71,9 @@
   }
   
   #images {
-    display: flex;
+    display:flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
   }
   
   .insta {

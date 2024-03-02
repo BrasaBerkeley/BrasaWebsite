@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a7be3a2c-1e7e-4734-9faa-547b56302dc6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/em-portugues/index-port.html" beforeDir="false" afterPath="$PROJECT_DIR$/em-portugues/index-port.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/em-portugues/construcao-port.html" beforeDir="false" afterPath="$PROJECT_DIR$/em-portugues/construcao-port.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emconstrucao.html" beforeDir="false" afterPath="$PROJECT_DIR$/emconstrucao.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index-port.html">
+  <component name="RunManager" selected="JavaScript Debug.construcao-port.html">
     <configuration name="construcao-port.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BrasaWebsite/em-portugues/construcao-port.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -90,10 +90,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.construcao-port.html" />
+        <item itemvalue="JavaScript Debug.emconstrucao.html" />
         <item itemvalue="JavaScript Debug.index-port.html" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.emconstrucao.html" />
-        <item itemvalue="JavaScript Debug.construcao-port.html" />
         <item itemvalue="JavaScript Debug.construction-page.html" />
       </list>
     </recent_temporary>
@@ -109,7 +109,7 @@
       <workItem from="1708627639424" duration="5102000" />
       <workItem from="1708746423670" duration="8134000" />
       <workItem from="1709330758149" duration="291000" />
-      <workItem from="1709331200990" duration="1682000" />
+      <workItem from="1709331200990" duration="2626000" />
     </task>
     <servers />
   </component>

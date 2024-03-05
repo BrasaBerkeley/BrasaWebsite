@@ -58,15 +58,19 @@ body {
 }
 
 #button {
-    background-color: #F6C227;
-    color: #003769;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 40px;
-    text-decoration: none;
-    font-weight: bold;
-    margin-top: 20px;
-    font-size: 1.5rem;
+  background-color: #F6C227;
+  color: #003769;
+  padding: 5px 11px;
+  border-style: 2px solid;
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 15px;
+  transition: 0.4s;
+  font-size: 25px;
+}
+
+#button:hover {
+    padding: 20px;
 }
 
 #Main-menu {

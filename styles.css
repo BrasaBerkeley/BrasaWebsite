@@ -42,6 +42,11 @@ nav {
   line-height: 20px;
 }
 
+#navbar-text:hover {
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 55, 105, 1);
+}
+
 #bandeira-br {
   width: 2.5rem;
   padding-left: 25px;
@@ -386,15 +391,13 @@ ul li a:hover{
 .links a:hover{
   color: #4d4f55;
   border-radius: 20%;
-  border-style: solid;
-  border-color:#003769;
+  padding: 15px;
   
 }
 
 @media(max-width: 740px){
   .footer-col{
       width: 50%;
-      margin-bottom: 30px;
       text-align: center;
   }
 
@@ -428,6 +431,8 @@ ul li a:hover{
   height: 33px;
   width: 37px;
 }
+
+/* ------------------------------- MEMBERS PAGE -------------------------------*/
 
 #board-leadership {
   font-family: 'Montserrat', sans-serif;

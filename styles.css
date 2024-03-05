@@ -428,3 +428,98 @@ ul li a:hover{
   height: 33px;
   width: 37px;
 }
+
+#board-leadership {
+  font-family: 'Montserrat', sans-serif;
+
+  #board-leadership-title {
+    color: rgba(0, 55, 105, 1);
+    text-align: center;
+    font-size: 60px
+  }
+}
+
+#board-members {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #003769;
+
+  #board-members-title {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+  }
+
+  .board-division-title {
+    color: #F6C227;
+    font-weight: 500;
+    text-align: center;
+    font-size: 35px
+  }
+}
+
+.duas-pessoas {
+  justify-content: center;
+  text-align: center;
+}
+
+.tres-pessoas {
+  justify-content: center;
+  text-align: center;
+}
+
+.uma-pessoa {
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  width: 380px;
+  height: 550px;
+  background-color: #1848A0;
+  color: white;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.card-name {
+  display: inline-block;
+  position: static;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 35px;
+}
+
+.card-title {
+  display: inline-block;
+  position: static;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 5px;
+  margin-bottom: -10px;
+}
+
+.placeholder {
+  width: 300px;
+  height: 340px;
+  background-color: white;
+  border-radius: 20px;
+  position: static;
+  display: inline-block;
+  margin-bottom: 19px;
+}
+
+.card-connect {
+  color: #F6C227;
+  text-decoration: none;
+  position: static;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 200px;
+}

@@ -392,8 +392,7 @@ ul li a:hover{
   color: #4d4f55;
   border-radius: 20%;
   padding: 10px;
-  
-}
+}s
 
 @media(max-width: 740px){
   .footer-col{

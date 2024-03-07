@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a7be3a2c-1e7e-4734-9faa-547b56302dc6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/em-portugues/membros-port.html" beforeDir="false" afterPath="$PROJECT_DIR$/em-portugues/membros-port.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/membros.html" beforeDir="false" afterPath="$PROJECT_DIR$/membros.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +59,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.membros-port.html">
     <configuration name="construcao-port.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BrasaWebsite/em-portugues/construcao-port.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="construction-page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BrasaWebsite/EmConstrucao/construction-page.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="emconstrucao.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BrasaWebsite/emconstrucao.html" useBuiltInWebServerPort="true">
@@ -74,19 +72,28 @@
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BrasaWebsite/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="membros-port.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BrasaWebsite/em-portugues/membros-port.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="BrasaWebsite" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.membros-port.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index-port.html" />
         <item itemvalue="JavaScript Debug.construcao-port.html" />
         <item itemvalue="JavaScript Debug.emconstrucao.html" />
-        <item itemvalue="JavaScript Debug.construction-page.html" />
       </list>
     </recent_temporary>
   </component>
